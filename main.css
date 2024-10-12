@@ -1,3 +1,92 @@
-body { background-color: bisque;
+body {
+  font-family: "Over the Rainbow", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color:cornsilk;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  justify-content: center;
+}
+
+
+.card {
+  border: 1px solid lightblue;
+  margin: 6px;
+  padding: 7px;
+  backdrop-filter: blur(7px);
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 35px 35px 68px 0px rgba(244, 233, 241, 0.5), inset -5px -5px 16px 0px rgba(244, 233, 241, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+  flex-direction: row;
 
 }
+
+.card-head {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: underline;
+  font-weight: 800;
+
+}
+
+
+header {
+  font-weight: bold;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 28;
+}
+
+.card-title {
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 2.5px
+
+}
+
+
+
+.card-body {
+    flex-direction: column;
+    justify-content: left;
+    font-size: medium;
+    font-weight: 400;
+}
+
+ .sold-out {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 0, 0);
+    padding-right: 5px;
+    }
+
+.availability {
+  display: flex;
+  justify-content:left;
+  color: rgb(93, 213, 19);
+  padding-right: 5px;
+  font-weight: 700;
+}
+.sold-out {
+  justify-content: left;
+}
+
+img
+ {
+  width: 200px;
+
+  }
+  footer {
+    font-size: x-small;
+  }
